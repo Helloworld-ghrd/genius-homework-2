@@ -200,6 +200,9 @@ ul {
 .hero-section {
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: calc(670px + max(0px, (100vw - 1920px) * 0.3)); /* test */
 }
 
 .hero-section::after {
@@ -230,7 +233,7 @@ ul {
   bottom: 0;
   background: url(../images/bg-hero.jpg);
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center;
   background-size: cover;
   z-index: -1;
 }
