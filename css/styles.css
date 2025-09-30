@@ -91,6 +91,15 @@ ul {
   list-style-type: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .container {
   width: 100%;
   max-width: 1288px;
@@ -106,7 +115,7 @@ ul {
 .bg-gradient::after {
   content: '';
   position: absolute;
-  top: 1290px;
+  top: 620px;
   left: 0;
   right: 0;
   bottom: 590px;
@@ -517,6 +526,7 @@ ul {
   max-width: 152px;
   color: var(--color-brand-white);
   font-size: 22px;
+  font-weight: 400;
   line-height: 1.18;
   text-align: center;
 }
