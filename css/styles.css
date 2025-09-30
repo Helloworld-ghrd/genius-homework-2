@@ -115,14 +115,14 @@ ul {
 .bg-gradient::after {
   content: '';
   position: absolute;
-  top: 620px;
+  top: 660px;
   left: 0;
   right: 0;
-  bottom: 590px;
+  height: 1507px;
   background-image: url('../images/bg-grad-main-sect.png');
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: cover;
+  background-size: 100% 1507px;
   z-index: -1;
 }
 
